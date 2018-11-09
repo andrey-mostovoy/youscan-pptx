@@ -1,0 +1,152 @@
+youscan:
+    concurrency: 5
+diagram:
+    types:
+        line: Линейный график
+        area: Залитый линейный график
+        pie: Круговая гистограмма
+        verticalBar: столбчатые диаграммы
+        horizontalBar: линейные диаграммы
+    section:
+        overview:
+            dynamic: Динамика
+        tags:
+            byTime: Теги по времени
+            sentiment: Тональность по тегам
+        sentiment:
+            byTime: Тональность по времени
+            distribution: Распределение тональности
+#            distributionByTime: Распределение тональности по времени        аналогичен byTime
+        sources:
+            byTime: Источники по времени
+#            top: Топ источников         аналогичен distribution
+            distribution: Распределение источников
+            sentiment: Тональность источников
+#            mentions: Упоминаний по источнику           аналогичен distribution
+        demographics:
+            mentionsBySexByTime: Упоминания по полу по времени
+            mentionsDistributionBySex: Распределение упоминаний по полу
+#            mentionsDistributionByAge: Распределение упоминаний по возрасту              api не возвращает возраст
+    # дополнительная конфигурация графиков
+    # titleCorrection - коррекция названия графика (если юзер не вбил свое)
+    # typeCorrection - коррекция возможного вида графика, опят же если не выбрали - используется первый из списка.
+    # draw - конфигурация отображения графика, например цвет полос (если не одна).
+    # top - максимальное количество значений, если на графике более одной сущности
+    sectionConfig:
+        overview.dynamic:
+            titleCorrection: 'Динамика упоминаний бренда'
+            typeCorrection:
+                - area
+                - line
+        tags.byTime:
+            titleCorrection: 'Динамика упоминаний по тегам'
+            typeCorrection:
+                - line
+            top: 20
+        tags.sentiment:
+            titleCorrection: 'Категории обсуждений'
+            typeCorrection:
+                - verticalBar
+                - horizontalBar
+            top: 7
+            draw:
+                positive: 'ff8bc34a' # green argb
+                neutral: 'ff2196f3' # blue argb
+                negative: 'fff44336' # red argb
+        sentiment.byTime:
+            titleCorrection: 'Тональность упоминаний бренда в динамике'
+            typeCorrection:
+                - line
+            draw:
+                positive: 'ff8bc34a' # green argb
+                neutral: 'ff2196f3' # blue argb
+                negative: 'fff44336' # red argb
+        sentiment.distribution:
+            titleCorrection: 'Тональность упоминаний бренда'
+            typeCorrection:
+                - pie
+                - verticalBar
+                - horizontalBar
+            draw:
+                positive: 'ff8bc34a' # green argb
+                neutral: 'ff2196f3' # blue argb
+                negative: 'fff44336' # red argb
+        sources.byTime:
+            titleCorrection: 'Источники по времени'
+            typeCorrection:
+                - line
+            top: 7
+        sources.distribution:
+            titleCorrection: 'Источники упоминаний'
+            typeCorrection:
+                - pie
+                - verticalBar
+                - horizontalBar
+            top: 7
+        sources.sentiment:
+            titleCorrection: 'Распределение тональности по источникам'
+            typeCorrection:
+                - verticalBar
+                - horizontalBar
+            top: 7
+            draw:
+                positive: 'ff8bc34a' # green argb
+                neutral: 'ff2196f3' # blue argb
+                negative: 'fff44336' # red argb
+        demographics.mentionsBySexByTime:
+            titleCorrection: 'Демография'
+            typeCorrection:
+                - line
+            draw:
+                community: 'ff8bc34a' # green argb
+                male: 'ff2196f3' # blue argb
+                female: 'fff44336' # red argb
+                unknown: 'ff000000' # black argb
+        demographics.mentionsDistributionBySex:
+            titleCorrection: 'Демография'
+            typeCorrection:
+                - pie
+                - verticalBar
+                - horizontalBar
+    default:
+        top: 7
+        draw:
+            positive: 'ff8bc34a' # green argb
+            neutral: 'ff2196f3' # blue argb
+            negative: 'fff44336' # red argb
+filter:
+    sentiment:
+        positive: Позитивная
+        neutral: Нейтральная
+        negative: Негативная
+    postType:
+        post: Пост
+        comment: Комментарий
+        repost: Репост
+        extendedRepost: Дополнительный репост
+    autoCategory:
+        wom: WOM
+        article: Статья
+        intent: Интент
+        promotion: Промо
+        commercial: Комменрция
+        donation: Благотворительность
+        recipe: Рецепты
+    sourceType:
+        social: Социальные сети
+        forum: Форумы
+        news: СМИ
+        reviews: Отзывы
+        blog: Блоги
+        messenger: Мессенджеры
+    authorSex:
+        unknown: Не определено
+        male: Мужской
+        female: Женский
+        community: Сообщество
+filterTitle:
+    sentiment: Тональность
+    postType: Тип упоминания
+    autoCategory: Автокатегория
+    sourceType: Тип источника
+    authorSex: Пол автора

@@ -1,0 +1,16 @@
+{
+    "name": "andrey-mostovoy/YouScan",
+    "description": "YouScan ppt creator",
+    "require": {
+        "guzzlehttp/guzzle": "6.3.3",
+        "phpoffice/phppresentation": "^0.9.0",
+        "twig/twig": "^2.5",
+        "symfony/yaml": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FW\\": "src/FW/",
+            "App\\": "src/App/"
+        }
+    }
+}

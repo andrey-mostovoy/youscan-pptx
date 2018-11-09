@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f21347a4-5adf-4db3-a7cd-f1891bf9ad90" name="YouScan-nic" url="http://ssh.orm.nichost.ru">
+        <fileTransfer host="ssh.orm.nichost.ru" port="22" rootFolder="/home/orm/orm.nichost.ru/docs/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

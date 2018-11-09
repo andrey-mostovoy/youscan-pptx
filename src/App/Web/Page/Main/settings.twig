@@ -1,0 +1,121 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">{{ mainTitle }}</h1>
+    <div class="input-group w-50 btn-toolbar mb-2 mb-md-0">
+        <div class="ml-5 mr-5">
+            <a class="btn btn-primary" data-toggle="collapse" href="#{{ filterToggle }}" role="button" aria-expanded="false" aria-controls="{{ filterToggle }}">
+                Фильтры
+            </a>
+        </div>
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-period-{{ id }}">Период</span>
+        </div>
+        <input class="form-control period-pick" type="text" placeholder="Период" aria-describedby="inputGroup-period-{{ id }}" data-for="{{ inputNameSettings }}[period]"/>
+        <input type="hidden" name="{{ inputNameSettings }}[period][start]" value="" />
+        <input type="hidden" name="{{ inputNameSettings }}[period][end]" value="" />
+    </div>
+</div>
+
+<div class="form-group">
+    <!-- фильтры -->
+    <div class="collapse" id="{{ filterToggle }}">
+        <div class="border card-body">
+            {% for filter, filterArray in config.filter %}
+                <div class="border-bottom mb-3 pb-2">
+                    <h6>{{ config.filterTitle[filter]|e }}</h6>
+                    {% for filterKey, filterName in filterArray %}
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="{{ filterToggle }}-{{ filterKey }}" name="{{ inputNameSettings }}[filter][{{ filter }}][]" value="{{ filterKey }}">
+                            <label class="custom-control-label" for="{{ filterToggle }}-{{ filterKey }}">{{ filterName }}</label>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% if id == 'main' %}
+    <div class="form-group">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="topic{{ id }}">Топик</label>
+            </div>
+            <select class="custom-select" id="topic{{ id }}" name="topicId">
+                <option value="" selected>Надо выбрать типа...</option>
+                {% for topic in topics %}
+                    <option value="{{ topic.id }}" {% if topic.id == presentationData.topicId %}selected{% endif %}>{{ topic.name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+{% else %}
+    <div class="slide-{{ id }}-settings border-bottom">
+        <div class="form-group">
+            <div class="input-group mb-1">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-name-{{ id }}">Заголовок слайда</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-name-{{ id }}" name="{{ inputNameSettings }}[title]">
+            </div>
+            <small class="form-text text-muted">
+                Если заголовок не задан - будет использован из первого графика
+            </small>
+        </div>
+    </div>
+    <div class="diagramGroup-{{ id }} mt-3">
+        {# тут будут диаграммы #}
+    </div>
+    <div class="d-none diagramTemplate-{{ id }} border-bottom mb-4 js-diagram">
+        <div class="header-with-close">
+            <h5>График %diagramId%</h5>
+            <button type="button" class="close js-remove-diagram" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="form-group">
+            <div class="input-group mb-1">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-name-{{ id }}-%diagramId%">Название</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-name-{{ id }}-%diagramId%" name="{{ inputNameDiagram }}[%diagramId%][name]">
+            </div>
+            <small class="form-text text-muted">
+                Если название не задано - будет использовано по умолчанию для выбранного графика
+            </small>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupDiagramSection-{{ id }}-%diagramId%">График</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupDiagramSection-{{ id }}-%diagramId%" name="{{ inputNameDiagram }}[%diagramId%][section]" onchange="onDiagramSelect(this);">
+                        <option value="" selected>Надо выбрать типа...</option>
+                        {% for type, sectionVariants in config.diagram.section %}
+                            {% for section, name in sectionVariants %}
+                                <option value="{{ type }}.{{ section }}">{{ name }}</option>
+                            {% endfor %}
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupDiagramType-{{ id }}-%diagramId%">Тип графика</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupDiagramType-{{ id }}-%diagramId%" name="{{ inputNameDiagram }}[%diagramId%][type]">
+                        <option value="" selected>Надо выбрать типа... ну можно и нет</option>
+                        {% for type, name in config.diagram.types %}
+                            <option value="{{ type }}">{{ name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <button type="button" class="btn btn-secondary js-addDiagram" data-diagram-group-id="{{ id }}">Добавить график</button>
+    </div>
+{% endif %}

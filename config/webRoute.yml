@@ -1,0 +1,6 @@
+/:
+    class: App\Web\Page\Landing\LandingPage
+/main:
+    class: App\Web\Page\Main\MainPage
+/signout:
+    class: App\Web\Page\SignOut\SignOutPage

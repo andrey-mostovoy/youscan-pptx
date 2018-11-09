@@ -1,0 +1,133 @@
+{% extends "@layout/main.twig" %}
+
+{% block title %}Main{% endblock %}
+
+{% block meta %}{% endblock %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" type="text/css" href="./src/App/Web/Page/Main/MainPage.css" />
+{% endblock %}
+{% block js %}
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <!-- datepicker -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <!-- Page js -->
+    <script src="./src/App/Web/Page/Main/MainPage.js"></script>
+{% endblock %}
+
+{% block bodyClass %}{% endblock %}
+
+{% block content %}
+<form method="post" onsubmit="checkAndPost(this); return false;">
+    <input type="hidden" name="presentation" value="1" />
+
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">ppt youscan</a>
+        {#<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">#}
+        <input class="btn btn-dark w-50" type="submit" value="Сформировать">
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+                <a class="nav-link" href="?path=/signout">Выход</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column" id="pills-main-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" role="tab" href="#pills-settings" id="pills-settings-tab" aria-controls="pills-settings" aria-selected="true">
+                                Общие настройки
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Слайды</span>
+                        <a class="d-flex align-items-center text-muted js-addSlide" href="#">
+                            <span data-feather="plus-circle"></span>
+                        </a>
+                    </h6>
+
+                    <ul class="nav flex-column mb-2" id="pills-tab" role="tablist">
+                        <li class="nav-item header-with-close d-none" id="pillTabTemplate">
+                            <a class="nav-link" data-toggle="pill" role="tab" href="#pillTabTemplate" id="pillTabTemplate-tab" aria-controls="pillTabTemplate" aria-selected="false">
+                                <span data-feather="file-text"></span>
+                                pillTabTemplate
+                            </a>
+                            <button type="button" class="close js-remove-slide" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                {% if userMessages %}
+                    <div class="container">
+                        {% for message in userMessages %}
+                            <div class="alert alert-dismissible fade show alert-{{ message.type }}" role="alert">
+                                {{ message.text }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <div class="tab-content" id="pills-main-tabContent">
+                    <div class="tab-pane fade show active" id="pills-settings" role="tabpanel" aria-labelledby="pills-settings-tab">
+                        {# MAIN configu ration #}
+                        {% include '@page/settings.twig' with {
+                            'id': 'main',
+                            'mainTitle': 'Общие настройки презентации',
+                            'filterToggle': 'settingsFilter',
+                            'inputNameSettings': 'settings',
+                        } %}
+                    </div>
+                </div>
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade d-none" id="pillTabContentTemplate" role="tabpanel" aria-labelledby="pillTabContentTemplate-tab">
+                        {# each slide configuration #}
+                        {% include '@page/settings.twig' with {
+                            'id': '%slideId%',
+                            'mainTitle': 'Настройки слайда %slideId%',
+                            'filterToggle': 'slide-%slideId%-filter',
+                            'inputNameDiagram': 'slides[%slideId%][diagrams]',
+                            'inputNameSettings': 'slides[%slideId%][settings]',
+                        } %}
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+</form>
+    <!-- Modal -->
+    <div class="modal fade" id="modal-form-error" tabindex="-1" role="dialog" aria-labelledby="modal-form-error-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-form-error-label">Не могу сабмитнуть, насяйника</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Надобно выбрать топик в общих настройках
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Понятно</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

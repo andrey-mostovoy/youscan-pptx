@@ -1,0 +1,14 @@
+<div class="form-group js-diagramTags">
+    <h6>Тэги</h6>
+    {% for tag in tags %}
+        <div class="custom-control custom-checkbox custom-control-inline">
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="diagramTags-{{ slideId }}-{{ diagramId }}-{{ loop.index }}" name="slides[{{ slideId }}][diagrams][{{ diagramId }}][tags][]" value="{{ tag }}">
+                <label class="custom-control-label" for="diagramTags-{{ slideId }}-{{ diagramId }}-{{ loop.index }}">{{ tag }}</label>
+            </div>
+        </div>
+    {% endfor %}
+    <small class="form-text text-muted">
+        Если не выбрать ничего - будут все, иначе только выбранные.
+    </small>
+</div>
