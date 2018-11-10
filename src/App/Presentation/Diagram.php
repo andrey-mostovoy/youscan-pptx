@@ -67,7 +67,7 @@ class Diagram {
      */
     public function import(array $data) {
         $this->name = $data['name'];
-        $this->type = $data['type'];
+        $this->type = $data['type'] ?? null;
         $this->section = $data['section'];
         if (isset($data['data'])) {
             $this->data = $data['data'];
