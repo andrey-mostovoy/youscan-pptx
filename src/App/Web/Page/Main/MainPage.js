@@ -166,7 +166,7 @@ function onDiagramSelect(select) {
     var wrapper = $(select).parents('.form-row').eq(0);
 
     // для тегов еще кое-что делаем
-    if (select.value === 'tags.byTime' || select.value === 'tags.sentiment') {
+    if (select.value.indexOf('tags.') !== -1) {
         if ($('.js-diagramTags', wrapper).length === 0) {
             // если еще нет тегов
             jQuery.ajax({

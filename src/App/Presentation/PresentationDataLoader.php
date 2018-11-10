@@ -161,6 +161,10 @@ class PresentationDataLoader {
                 // Тональность по тегам
                 $Diagram->data = $this->makeSentimentForCategory($Response->total['sentimentByTags'], $Diagram->getTopSize());
                 break;
+            case 'tags.distribution':
+                // Распределение по тегам
+                $Diagram->data = $this->sortTop($Response->total['tags'], $Diagram->getTopSize());
+                break;
             case 'sentiment.byTime':
                 // Тональность по времени
                 foreach ($Response->sentiment as $sentiment => $data) {
@@ -188,7 +192,9 @@ class PresentationDataLoader {
             case 'demographics.mentionsBySexByTime':
                 // Упоминания по полу по времени
                 foreach ($Response->authorBySex as $sex => $data) {
-                    $Diagram->data[$sex] = $this->sortDate($data);
+                    if ($sex != 'unknown') {
+                        $Diagram->data[$sex] = $this->sortDate($data);
+                    }
                 }
                 $this->finalizeDate($AsyncItem);
                 break;

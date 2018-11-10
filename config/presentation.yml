@@ -12,6 +12,7 @@ diagram:
             dynamic: Динамика
         tags:
             byTime: Теги по времени
+            distribution: Распределение тегов
             sentiment: Тональность по тегам
         sentiment:
             byTime: Тональность по времени
@@ -43,6 +44,13 @@ diagram:
             typeCorrection:
                 - line
             top: 20
+        tags.distribution:
+            titleCorrection: 'Распределение по тегам'
+            typeCorrection:
+                - verticalBar
+                - pie
+                - horizontalBar
+            top: 7
         tags.sentiment:
             titleCorrection: 'Категории обсуждений'
             typeCorrection:
@@ -98,22 +106,33 @@ diagram:
             typeCorrection:
                 - line
             draw:
-                community: 'ff8bc34a' # green argb
+                community: 'ffffc17' # yellow argb
                 male: 'ff2196f3' # blue argb
-                female: 'fff44336' # red argb
-                unknown: 'ff000000' # black argb
+                female: 'ffe91e63' # red argb
         demographics.mentionsDistributionBySex:
             titleCorrection: 'Демография'
             typeCorrection:
                 - pie
                 - verticalBar
                 - horizontalBar
+            draw:
+                community: 'ffffc17' # yellow argb
+                male: 'ff2196f3' # blue argb
+                female: 'ffe91e63' # red argb
     default:
         top: 7
         draw:
             positive: 'ff8bc34a' # green argb
             neutral: 'ff2196f3' # blue argb
             negative: 'fff44336' # red argb
+        translate:
+            positive: Позитивная
+            neutral: Нейтральная
+            negative: Негативная
+            unknown: Не определено
+            male: Мужской
+            female: Женский
+            community: Сообщество
 filter:
     sentiment:
         positive: Позитивная

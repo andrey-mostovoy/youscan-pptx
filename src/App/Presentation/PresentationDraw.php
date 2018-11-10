@@ -69,6 +69,11 @@ class PresentationDraw {
                    ->setCategory('Category');
     }
 
+    /**
+     * Создает презентацию. Наполняет объект данными для дальнейшего вывода.
+     * @return PresentationDraw
+     * @throws Exception
+     */
     public function createPpt(): self {
         // Remove first slide
         $this->Draw->removeSlideByIndex(0);
@@ -80,6 +85,11 @@ class PresentationDraw {
         return $this;
     }
 
+    /**
+     * Формирует слайд.
+     * @param Slide $Slide
+     * @throws Exception
+     */
     private function drawSlide(Slide $Slide) {
         // Слайд
         $this->DrawSlide = $this->Draw->createSlide();
@@ -88,7 +98,7 @@ class PresentationDraw {
             // Заголовок слайда
             $TextShape = $this->DrawSlide->createRichTextShape();
             $TextShape
-                ->setWidth(800)->setHeight(200)
+                ->setWidth(800)->setHeight(100)
                 ->setOffsetX(80)->setOffsetY(80);
             $TextShape->getActiveParagraph()->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
             $TextRun = $TextShape->createTextRun($Slide->Setting->title);
@@ -168,12 +178,12 @@ class PresentationDraw {
         $this->addSeriesToChart($LineChart, $Diagram);
 
         // Create a shape (chart)
-        $Chart = $this->getChartShape($Diagram);
-        $Chart->getPlotArea()->setType($LineChart);
+        $ChartShape = $this->getChartShape($Diagram);
+        $ChartShape->getPlotArea()->setType($LineChart);
 
         if (count($LineChart->getSeries()) > 10) {
-            $Chart->getLegend()->setWidth(500);
-            $Chart->getLegend()->setOffsetX(0.1);
+            $ChartShape->getLegend()->setWidth(520);
+            $ChartShape->getLegend()->setOffsetX(0.1);
         }
     }
 
@@ -193,7 +203,7 @@ class PresentationDraw {
             $Series->setLabelPosition(Series::LABEL_OUTSIDEEND);
             $Series->setShowPercentage(true);
             $Series->setShowValue(false);
-            $Series->setShowSeriesName(true);
+            $Series->setShowSeriesName(false);
             $Series->setShowCategoryName(false);
             $Series->setDlblNumFormat('#%');
         }
@@ -201,6 +211,11 @@ class PresentationDraw {
         // Create a shape (chart)
         $ChartShape = $this->getChartShape($Diagram);
         $ChartShape->getPlotArea()->setType($PieChart);
+
+        if (count($PieChart->getSeries()) > 10) {
+            $ChartShape->getLegend()->setWidth(520);
+            $ChartShape->getLegend()->setOffsetX(0.1);
+        }
     }
 
     /**
@@ -219,6 +234,15 @@ class PresentationDraw {
         // Create a shape (chart)
         $ChartShape = $this->getChartShape($Diagram);
         $ChartShape->getPlotArea()->setType($VerticalBarChart);
+
+        // потому что в процентах они
+        if ($Diagram->section == 'sources.sentiment' ||
+            $Diagram->section == 'tags.sentiment'
+        ) {
+            $ChartShape->getPlotArea()->getAxisY()->setMaxBounds(100);
+        } else {
+            $ChartShape->getLegend()->setVisible(false);
+        }
     }
 
     /**
@@ -248,12 +272,13 @@ class PresentationDraw {
      */
     private function addSeriesToChart(AbstractType $Chart, Diagram $Diagram) {
         $drawConfig = $Diagram->getDrawConfig();
+        $translate = $Diagram->getTranslate();
 
         if (is_array(current($Diagram->data))) {
             // если тут - значит диаграмма имеем несколько наборов данных (несколько линий например)
             foreach ($Diagram->data as $group => $groupData) {
                 // Набор данных
-                $Series = new Series($group, $groupData);
+                $Series = new Series($translate[$group] ?? $group, $groupData);
                 $Series->setShowSeriesName(false);
                 $Series->setShowValue(false);
                 $Series->getFill()->setFillType(Fill::FILL_SOLID);
@@ -267,6 +292,20 @@ class PresentationDraw {
             }
         } else {
             // Набор данных
+            $indexToKey = array_keys($Diagram->data);
+            $data = [];
+            foreach ($indexToKey as $index => $key) {
+                if (!isset($translate[$key])) {
+                    continue;
+                }
+
+                $data[$translate[$key]] = $Diagram->data[$key];
+            }
+
+            if ($data) {
+                $Diagram->data = $data;
+            }
+
             $Series = new Series($Diagram->name, $Diagram->data);
             $Series->setShowSeriesName(false);
             $Series->setShowValue(false);
@@ -304,10 +343,10 @@ class PresentationDraw {
 
         $Chart->setResizeProportional(false);
         $Chart->setWidth(900 / $this->diagramPerSlide);
-        $Chart->setHeight(300);
-        $Chart->setOffsetX(50 + (900 / $this->diagramPerSlide) * ($this->currentDiagram - 1));
-        $Chart->setOffsetY(250);
-        $Chart->getShadow()->setVisible(true);
+        $Chart->setHeight(450);
+        $Chart->setOffsetX(30 + (900 / $this->diagramPerSlide) * ($this->currentDiagram - 1));
+        $Chart->setOffsetY(200);
+        $Chart->getShadow()->setVisible(false);
         $Chart->getShadow()->setDirection(45);
         $Chart->getShadow()->setDistance(10);
         $Chart->getBorder()->setLineStyle(Border::LINE_NONE);
@@ -334,23 +373,7 @@ class PresentationDraw {
     }
 
     /**
-     * Сохраняет файл.
-     * @return string Возвращает путь к файлу.
-     * @throws \Exception
-     */
-    public function save(): string {
-        $filePath = PUBLIC_DIR . sprintf(
-            '/YouScan_%s_%s.pptx',
-            App()->getUser()->getTopics()[$this->Presentation->topicId]['name'] ?? $this->Presentation->topicId,
-            date('d.m.Y H:i')
-        );
-        $oWriterPPTX = IOFactory::createWriter($this->Draw, 'PowerPoint2007');
-        $oWriterPPTX->save($filePath);
-
-        return $filePath;
-    }
-
-    /**
+     * Возвращает объект для записи презентации.
      * @return \PhpOffice\PhpPresentation\Writer\WriterInterface
      */
     public function createWriter() {

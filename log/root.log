@@ -1,0 +1,2399 @@
+2018-11-10 09:16:14 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:16:14 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:16:14 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:16:14 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'autoCategories' => 'wom',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:16:20 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:16:20 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:16:20 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:16:20 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 145312,
+  'autoCategories' => 'wom',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:16:25 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:16:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:16:25 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:16:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 147361,
+  'autoCategories' => 'wom',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:16:27 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:16:27 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 147364,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:37:25 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:37:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:37:25 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:37:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'autoCategories' => 'wom',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:37:28 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:37:28 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:37:28 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:37:28 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 145312,
+  'autoCategories' => 'wom',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:37:29 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:37:29 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:37:29 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:37:29 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 147361,
+  'autoCategories' => 'wom',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 09:37:30 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 09:37:30 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 147364,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:31:32 INFO https://api.youscan.io/api/external/topics/
+
+2018-11-10 12:31:32 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+)
+
+2018-11-10 12:31:40 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:31:40 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:35:50 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:35:50 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:36:54 INFO https://api.youscan.io/api/external/topics/133967/statistics/tags
+
+2018-11-10 12:36:54 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+)
+
+2018-11-10 12:38:56 INFO https://api.youscan.io/api/external/topics/133967/statistics/tags
+
+2018-11-10 12:38:56 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+)
+
+2018-11-10 12:39:25 INFO https://api.youscan.io/api/external/topics/133967/statistics/tags
+
+2018-11-10 12:39:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+)
+
+2018-11-10 12:39:58 INFO https://api.youscan.io/api/external/topics/133967/statistics/tags
+
+2018-11-10 12:39:58 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+)
+
+2018-11-10 12:40:09 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:40:09 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:40:15 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:40:15 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:40:18 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:40:18 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:44:17 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:44:17 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:44:20 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:44:20 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:44:21 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:44:21 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:44:46 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:44:46 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:44:49 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:44:49 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:44:50 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:44:50 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-09',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:48:10 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:48:10 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:48:13 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:48:13 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 12:48:15 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 12:48:15 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:03:45 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:03:45 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:03:51 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:03:51 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:03:53 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:03:53 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:18:06 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:18:06 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:18:09 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:18:09 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:18:11 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:18:11 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:21:34 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:21:34 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:23:28 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:23:28 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:24:40 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:24:40 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:27:20 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:27:20 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:30:22 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:30:22 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:30:26 ERROR ErrorException: array_combine(): Both parameters should have an equal number of elements in /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:299
+Stack trace:
+#0 [internal function]: _handleError(2, 'array_combine()...', '/Volumes/work/m...', 299, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(299): array_combine(Array, Array)
+#2 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(281): App\Presentation\PresentationDraw->getSeries('', Array, Object(App\Presentation\Diagram))
+#3 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(199): App\Presentation\PresentationDraw->addSeriesToChart(Object(PhpOffice\PhpPresentation\Shape\Chart\Type\Pie), Object(App\Presentation\Diagram))
+#4 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(143): App\Presentation\PresentationDraw->drawPieChart(Object(App\Presentation\Diagram))
+#5 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(125): App\Presentation\PresentationDraw->drawDiagram(Object(App\Presentation\Diagram))
+#6 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(82): App\Presentation\PresentationDraw->drawSlide(Object(App\Presentation\Slide))
+#7 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(87): App\Presentation\PresentationDraw->createPpt()
+#8 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->drawToPpt()
+#9 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#10 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#11 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#12 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#13 {main}
+
+2018-11-10 13:33:03 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:33:03 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:40:20 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:40:20 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-11-03',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:41:13 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:41:13 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:41:16 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:41:16 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:41:17 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:41:17 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:41:57 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:41:57 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:42:03 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:42:03 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:42:05 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:42:05 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:58:56 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:58:56 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:59:02 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:59:02 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:59:04 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:59:04 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:59:48 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:59:48 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:59:51 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:59:51 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 13:59:53 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 13:59:53 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:01:36 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:01:36 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:01:40 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:01:40 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:01:41 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:01:41 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:08:43 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:08:43 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:08:48 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:08:48 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:08:50 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:08:50 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:15:45 INFO https://api.youscan.io/api/external/topics/133967/statistics/tags
+
+2018-11-10 14:15:45 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+)
+
+2018-11-10 14:15:46 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:15:51 INFO https://api.youscan.io/api/external/topics/133967/statistics/tags
+
+2018-11-10 14:15:51 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+)
+
+2018-11-10 14:15:52 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:16:47 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:16:47 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:16:50 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:16:50 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:16:51 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:16:51 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:16:52 ERROR TypeError: Argument 1 passed to PhpOffice\PhpPresentation\Style\Fill::setStartColor() must be an instance of PhpOffice\PhpPresentation\Style\Color or null, string given, called in /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php on line 324 and defined in /Volumes/work/me/YouScan/vendor/phpoffice/phppresentation/src/PhpPresentation/Style/Fill.php:162
+Stack trace:
+#0 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(324): PhpOffice\PhpPresentation\Style\Fill->setStartColor('ff2196f3')
+#1 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(281): App\Presentation\PresentationDraw->getSeries('', Array, Object(App\Presentation\Diagram))
+#2 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(199): App\Presentation\PresentationDraw->addSeriesToChart(Object(PhpOffice\PhpPresentation\Shape\Chart\Type\Pie), Object(App\Presentation\Diagram))
+#3 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(143): App\Presentation\PresentationDraw->drawPieChart(Object(App\Presentation\Diagram))
+#4 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(125): App\Presentation\PresentationDraw->drawDiagram(Object(App\Presentation\Diagram))
+#5 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(82): App\Presentation\PresentationDraw->drawSlide(Object(App\Presentation\Slide))
+#6 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(87): App\Presentation\PresentationDraw->createPpt()
+#7 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->drawToPpt()
+#8 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#9 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#10 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#11 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#12 {main}
+
+2018-11-10 14:16:52 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:17:53 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:17:53 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:17:58 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:17:58 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:18:00 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:18:00 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:18:02 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:39:11 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:39:11 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:39:19 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:39:19 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:39:21 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:39:21 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:39:23 ERROR TypeError: Argument 1 passed to PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractType::addSeries() must be an instance of PhpOffice\PhpPresentation\Shape\Chart\Series, null given, called in /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php on line 278 and defined in /Volumes/work/me/YouScan/vendor/phpoffice/phppresentation/src/PhpPresentation/Shape/Chart/Type/AbstractType.php:109
+Stack trace:
+#0 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(278): PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractType->addSeries(NULL)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(178): App\Presentation\PresentationDraw->addSeriesToChart(Object(PhpOffice\PhpPresentation\Shape\Chart\Type\Line), Object(App\Presentation\Diagram))
+#2 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(137): App\Presentation\PresentationDraw->drawLineChart(Object(App\Presentation\Diagram))
+#3 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(125): App\Presentation\PresentationDraw->drawDiagram(Object(App\Presentation\Diagram))
+#4 /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php(82): App\Presentation\PresentationDraw->drawSlide(Object(App\Presentation\Slide))
+#5 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(87): App\Presentation\PresentationDraw->createPpt()
+#6 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->drawToPpt()
+#7 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#8 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#9 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#10 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#11 {main}
+
+2018-11-10 14:39:23 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:40:25 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:40:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:40:28 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:40:28 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:40:30 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:40:30 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:40:31 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:31 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:31 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:31 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:31 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:31 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:31 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:31 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:40:44 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:40:44 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:40:47 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:40:47 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:40:48 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:40:48 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:40:50 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:50 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:50 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:50 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:50 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:50 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:50 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:40:50 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:42:25 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:42:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:42:28 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:42:28 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:42:32 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:42:32 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:42:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:42:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:42:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:42:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:42:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:42:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:42:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:333) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 14:42:34 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 14:58:50 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:58:50 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:58:56 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:58:56 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:58:58 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 14:58:58 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 14:59:00 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:03:51 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:03:51 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:03:53 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:03:53 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:03:55 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:03:55 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:03:56 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:05:16 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:05:16 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:05:18 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:05:18 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:05:20 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:05:20 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:05:21 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:12:36 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:12:36 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:12:39 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:12:39 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:12:42 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:12:42 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:12:44 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:14:05 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:14:05 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:14:09 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:14:09 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:14:11 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:14:11 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:14:13 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:15:19 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:15:19 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:15:23 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:15:23 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:15:24 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:15:24 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:15:25 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:316) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:15:25 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:316) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:15:25 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:316) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:15:25 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:316) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:15:25 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:316) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:15:25 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:316) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:15:25 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:316) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:15:25 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:17:08 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:17:08 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:17:11 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:17:11 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:17:12 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:17:12 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:17:13 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:18:54 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:18:54 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:18:58 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:18:58 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:19:00 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:19:00 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:19:01 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:21:11 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:21:11 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:21:18 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:21:18 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:21:19 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:21:19 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:21:20 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:23:22 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:23:22 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:23:25 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:23:25 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:23:26 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:23:26 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:23:28 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:25:32 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:25:32 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:25:39 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:25:39 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:25:42 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:25:42 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:25:43 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:27:24 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:27:24 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:27:30 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:27:30 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:27:32 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:27:32 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:27:33 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:27:33 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:27:33 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:27:33 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:27:33 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:27:33 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:27:33 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:27:33 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:32:07 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:32:07 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:32:13 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:32:13 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:32:15 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:32:15 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:32:17 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:32:17 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:32:17 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:32:17 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:32:17 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:32:17 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:32:17 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:32:17 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:33:07 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:33:07 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:33:10 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:33:10 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:33:11 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:33:11 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:33:12 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:33:12 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:33:12 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:33:12 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:33:12 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:33:12 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:33:12 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:33:12 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:34:56 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:34:56 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:35:01 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:35:01 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:35:03 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:35:03 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:35:04 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:35:04 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:35:04 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:35:04 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:35:04 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:35:04 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:35:04 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:35:04 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:39:27 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:39:27 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:39:30 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:39:30 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:39:32 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:39:32 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:39:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:110
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 110, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(110): header('Content-Descrip...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:39:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:111
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 111, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(111): header('Content-Type: a...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:39:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:112
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 112, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(112): header('Content-Disposi...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:39:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:113
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 113, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(113): header('Expires: 0')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:39:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:114
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 114, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(114): header('Cache-Control: ...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:39:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:115
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 115, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(115): header('Pragma: public')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:39:34 ERROR ErrorException: Cannot modify header information - headers already sent by (output started at /Volumes/work/me/YouScan/src/App/Presentation/PresentationDraw.php:317) in /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php:116
+Stack trace:
+#0 [internal function]: _handleError(2, 'Cannot modify h...', '/Volumes/work/m...', 116, Array)
+#1 /Volumes/work/me/YouScan/src/App/Presentation/Presentation.php(116): header('Content-Transfe...')
+#2 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(146): App\Presentation\Presentation->output()
+#3 /Volumes/work/me/YouScan/src/App/Web/Page/Main/MainPage.php(36): App\Web\Page\Main\MainPage->handlePresentationCreateRequest()
+#4 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(162): App\Web\Page\Main\MainPage->run()
+#5 /Volumes/work/me/YouScan/src/FW/Application/WebApplication.php(121): FW\Application\WebApplication->startPage('App\\Web\\Page\\Ma...')
+#6 /Volumes/work/me/YouScan/run_web.php(11): FW\Application\WebApplication->start()
+#7 {main}
+
+2018-11-10 15:39:34 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:39:50 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:39:50 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:39:54 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:39:54 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:39:56 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:39:56 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:39:57 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:43:09 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:43:09 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:43:12 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:43:12 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:43:13 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:43:13 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:43:14 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:44:35 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:44:35 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:44:38 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:44:38 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:44:39 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:44:39 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:44:41 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+
+2018-11-10 15:45:49 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:45:49 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:45:52 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:45:52 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 144220,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:45:55 INFO https://api.youscan.io/api/external/topics/133967/mentions
+
+2018-11-10 15:45:55 INFO array (
+  'apiKey' => 'WJeufapGlWwmTu7j',
+  'from' => '2018-10-01',
+  'to' => '2018-11-10',
+  'sinceSeq' => 146092,
+  'size' => 1000,
+  'orderBy' => 'seqAsc',
+)
+
+2018-11-10 15:45:57 ERROR ErrorException: Undefined index: type in /Volumes/work/me/YouScan/src/App/Presentation/Diagram.php:70
+Stack trace:
+#0 [internal function]: _handleShutdown()
+#1 {main}
+

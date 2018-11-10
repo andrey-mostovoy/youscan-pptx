@@ -43,6 +43,11 @@ class Diagram {
     private $topSize;
 
     /**
+     * @var array Переводы.
+     */
+    private $translate;
+
+    /**
      * Экспорт
      * @return array
      */
@@ -154,5 +159,20 @@ class Diagram {
             );
         }
         return $this->topSize;
+    }
+
+    /**
+     * Возвращает перевод сущностей на графике.
+     * @return array
+     */
+    public function getTranslate() {
+        if (is_null($this->translate)) {
+            $Config = App()->getConfig();
+            $default = $Config->getKey('presentation', ['diagram', 'default', 'translate'], []);
+            $this->translate = $Config->getKey(
+                'presentation', ['diagram', 'sectionConfig', $this->section, 'translate'], $default
+            );
+        }
+        return $this->translate;
     }
 }

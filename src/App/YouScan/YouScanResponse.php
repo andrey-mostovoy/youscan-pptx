@@ -97,13 +97,16 @@ class YouScanResponse {
         $Date = new DateTime($mention['published']);
         $dateKey = $Date->setTimezone(new DateTimeZone('Europe/Moscow'))->format(self::DATE_KEY_FORMAT);
 
+        $gender = $mention['author']['gender'] ?? 'unknown';
+        $sentiment = $mention['sentiment'];
+
         $this->increment('mention', $dateKey);
         $this->increment('total', 'mention');
 
         $this->increment('source', $mention['source'], $dateKey);
         $this->increment('total', 'source', $mention['source']);
         // после сбора всех данных это все пересобирется в проценты по каждому источнику и переразбито для отрисовки
-        $this->increment('total', 'sentimentBySource', $mention['source'], $mention['sentiment']);
+        $this->increment('total', 'sentimentBySource', $mention['source'], $sentiment);
 
         if (isset($mention['author']) && !isset($this->uniqueAuthor[$mention['author']['url']])) {
             $this->increment('author', $dateKey);
@@ -111,12 +114,11 @@ class YouScanResponse {
             $this->uniqueAuthor[$mention['author']['url']] = true;
         }
 
-        $gender = $mention['author']['gender'] ?? 'unknown';
         $this->increment('authorBySex', $gender, $dateKey);
         $this->increment('total', 'authorBySex', $gender);
 
-        $this->increment('sentiment', $mention['sentiment'], $dateKey);
-        $this->increment('total', 'sentiment', $mention['sentiment']);
+        $this->increment('sentiment', $sentiment, $dateKey);
+        $this->increment('total', 'sentiment', $sentiment);
 
         if (isset($mention['engagement']['engagement'])) {
             $this->increment('engagement', $mention['engagement']['engagement'], $dateKey);
@@ -135,7 +137,7 @@ class YouScanResponse {
             $this->increment('tags', $tag, $dateKey);
             $this->increment('total', 'tags', $tag);
             // после сбора всех данных это все пересобирется в проценты по каждому источнику и переразбито для отрисовки
-            $this->increment('total', 'sentimentByTags', $tag, $mention['sentiment']);
+            $this->increment('total', 'sentimentByTags', $tag, $sentiment);
         }
     }
 
