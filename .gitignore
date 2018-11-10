@@ -30,3 +30,6 @@ fabric.properties
 
 # secret
 config/secret.yml
+
+# logs
+log/*

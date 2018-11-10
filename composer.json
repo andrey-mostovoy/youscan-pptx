@@ -3,7 +3,7 @@
     "description": "YouScan ppt creator",
     "require": {
         "guzzlehttp/guzzle": "6.3.3",
-        "phpoffice/phppresentation": "^0.9.0",
+        "phpoffice/phppresentation": "dev-master",
         "twig/twig": "^2.5",
         "symfony/yaml": "^4.1"
     },
