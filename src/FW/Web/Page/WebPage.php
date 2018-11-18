@@ -65,9 +65,7 @@ abstract class WebPage {
      * Выполняет код аякс запроса на страницу.
      * @param string $method
      * @return array
-     * @throws \Twig_Error_Loader
-     * @throws \Twig_Error_Runtime
-     * @throws \Twig_Error_Syntax
+     * @throws Throwable
      */
     public function runAjax(string $method): array {}
 

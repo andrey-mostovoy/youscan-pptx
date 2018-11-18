@@ -4,6 +4,7 @@ namespace App\YouScan;
 
 use App\Presentation\Presentation;
 use GuzzleHttp\Client;
+use function GuzzleHttp\debug_resource;
 use GuzzleHttp\Pool;
 use function GuzzleHttp\Promise\unwrap;
 use GuzzleHttp\Psr7\Response;
@@ -243,7 +244,7 @@ App()->getLogger()->info(var_export($Request->getParams(), true));
 
             foreach ($results as $asyncIndex => $Response) {
                 $callback(
-                    $RequestList->getByUniqueIndex($asyncIndex), json_decode($Response->getBody()->getContents(), true)
+                    $asyncIndex, json_decode($Response->getBody()->getContents(), true)
                 );
             }
         }
@@ -299,19 +300,22 @@ App()->getLogger()->info(var_export($Request->getParams(), true));
     public function getDetailedMentionsAsync(YouScanAsyncRequestList $RequestList) {
         $RequestList->setRequestsOrderAndSize(1000, 'seqAsc');
 
-        $this->requestAsyncListBySeq('mentions', $RequestList, function(YouScanAsyncItem $AsyncItem, array $response) {
+        $this->requestAsyncListBySeq('mentions', $RequestList, function(string $requestHash, array $response) use ($RequestList) {
             foreach ($response['mentions'] as $mention) {
-                if (!$AsyncItem->Request->isPostFilterRequired ||
-                    $AsyncItem->Response->isSuitableResult($AsyncItem->Request, $mention)
-                ) {
-                    $AsyncItem->Response->collectDataFromMention($mention);
+                foreach ($RequestList->getAsyncItemsByRequestIndex($requestHash) as $AsyncItemWithResponse) {
+                    if (!$AsyncItemWithResponse->Request->isPostFilterRequired ||
+                        $AsyncItemWithResponse->Response->isSuitableResult($AsyncItemWithResponse->Request, $mention)
+                    ) {
+                        $AsyncItemWithResponse->Response->collectDataFromMention($mention);
+                    }
                 }
             }
 
-            $AsyncItem->Sequence->max = $response['lastSeq'];
+            $RequestAsyncItem = $RequestList->getByUniqueIndex($requestHash);
+            $RequestAsyncItem->Sequence->max = $response['lastSeq'];
 
             $lastMention = end($response['mentions']);
-            $AsyncItem->Sequence->last = $lastMention['seq'] ?? $response['lastSeq'];
+            $RequestAsyncItem->Sequence->last = $lastMention['seq'] ?? $response['lastSeq'];
         });
     }
 

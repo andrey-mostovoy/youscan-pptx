@@ -20,7 +20,8 @@
 {% block bodyClass %}{% endblock %}
 
 {% block content %}
-<form method="post" onsubmit="checkAndPost(this); return false;">
+<iframe class="d-none" name="downloadFrame"></iframe>
+<form method="post" onsubmit="checkAndPost(this); return false;" target="downloadFrame">
     <input type="hidden" name="presentation" value="1" />
 
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
@@ -126,6 +127,23 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Понятно</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- сабмитим и крутим -->
+    <div class="modal fade" id="modal-submitting" tabindex="-1" role="dialog" aria-labelledby="modal-submitting-label" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog fixed-bottom mx-1" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Уведомление</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Выполняю действия. Результат будет загружен, ожидайте...
                 </div>
             </div>
         </div>

@@ -2,8 +2,8 @@
 feather.replace();
 
 // datepicker
-function setDatepicker(selector) {
-    $(selector).daterangepicker({
+function setDatepicker(element) {
+    element.daterangepicker({
         autoApply: true,
         timePicker: false,
         timePicker24Hour: false,
@@ -59,9 +59,23 @@ function setDatepicker(selector) {
         $('input[name="' + forInput + '[start]"]').val(start.format('YYYY-MM-DD'));
         $('input[name="' + forInput + '[end]"]').val(end.format('YYYY-MM-DD'));
         console.log('New date range selected: ' + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD') + ' (predefined range: ' + label + ')');
+
+        if (this.element.hasClass('js-date-main')) {
+            updateMainTags(this.element.parents('form').eq(0));
+        }
     });
 }
-setDatepicker('.period-pick');
+// setDatepicker('.period-pick');
+
+// add datepick
+$('body').on('click', '.period-pick', function() {
+    var element = $(this);
+    if (!element.data('detepicker_done')) {
+        setDatepicker($(this));
+        element.data('detepicker_done', true);
+        $(this).click();
+    }
+});
 
 // tabs
 // из-за 2х списков нужно синхронизировать их по показу и скрытию
@@ -87,7 +101,7 @@ $('.js-addSlide').on('click', function(e) {
         .attr('id', id).attr('aria-labelledby', id + '-tab')
         .html(tab.html().replace(/%slideId%/g, window.slideCount))
         .appendTo('#pills-tabContent');
-    setDatepicker('#' + tab.attr('id') + ' .period-pick');
+    // setDatepicker('#' + tab.attr('id') + ' .period-pick');
     $('.js-addDiagram', '#' + tab.attr('id')).click();
 
     var li = $('#pillTabTemplate').clone(true, true);
@@ -138,6 +152,7 @@ function checkAndPost(form) {
     if (!$('select[name="topicId"]').val()) {
         $('#modal-form-error').modal('show');
     } else {
+        $('#modal-submitting').modal('show');
         form.submit();
     }
 }
@@ -172,7 +187,7 @@ function onDiagramSelect(select) {
             jQuery.ajax({
                 method: 'post',
                 data: {
-                    _ajax: 'tags',
+                    _ajax: 'tagsDiagram',
                     diagramId: diagramId,
                     form: $(select).parents('form').eq(0).serialize(),
                 },
@@ -186,4 +201,69 @@ function onDiagramSelect(select) {
     } else {
         $('.js-diagramTags', wrapper).remove();
     }
+}
+
+// add template for presentation
+$('.js-presentationTemplate').on('click', function(e) {
+    e.preventDefault();
+
+    var presentationTemplateId = $(this).data('presentationTemplate');
+    var addSlideButton = $('.js-addSlide');
+    var templateData = [];
+
+    if (presentationTemplateId == 1) {
+        templateData = [
+            ['overview.dynamic'],
+            ['sentiment.byTime'],
+            ['sentiment.distribution'],
+            ['sources.distribution'],
+            ['sources.sentiment'],
+            ['demographics.mentionsDistributionBySex'],
+            ['tags.byTime'],
+            ['tags.distribution', 'tags.sentiment'],
+        ];
+    }
+
+    if (!templateData.length) {
+        return false;
+    }
+
+    for (var i in templateData) {
+        addSlideButton.click();
+        for (var j in templateData[i]) {
+            if (j > 0) {
+                $('.js-addDiagram').eq(-1).click();
+            }
+            $('.js-diagramSection').eq(-2).val(templateData[i][j]).trigger('change');
+        }
+    }
+
+    return false;
+});
+
+// update main tags
+$('#topicmain').on('change', function() {
+    var topicId = $(this).val();
+
+    if (!topicId) {
+        return;
+    }
+
+    updateMainTags($(this).parents('form').eq(0));
+});
+
+// функция обнволения тегов в главных фильтрах
+function updateMainTags(form) {
+    $.ajax({
+        method: 'post',
+        data: {
+            _ajax: 'tagsMain',
+            form: form.serialize(),
+        },
+        success: function(data, textStatus, jqXHR) {
+            if (data.tags) {
+                $('.js-mainTags').html('').append(data.tags);
+            }
+        },
+    });
 }

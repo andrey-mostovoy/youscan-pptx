@@ -102,6 +102,10 @@ class PresentationDataLoader {
         if ($Filter->authorSex) {
             $ApiRequest->authorGenders = array_merge($ApiRequest->authorGenders, $Filter->authorSex);
         }
+
+        if ($Filter->tags) {
+            $ApiRequest->tags = array_merge($ApiRequest->tags, $Filter->tags);
+        }
     }
 
     /**
@@ -128,7 +132,7 @@ class PresentationDataLoader {
         if ($Diagram->tags) {
             // если есть теги то нужен другой объект запроса
             $AsyncItem->Request = clone $ApiRequest;
-            $AsyncItem->Request->tags = $Diagram->tags;
+            $AsyncItem->Request->tags = array_merge($Diagram->tags, $AsyncItem->Request->tags);
         } else {
             $AsyncItem->Request = $ApiRequest;
         }
@@ -171,10 +175,12 @@ class PresentationDataLoader {
                     $Diagram->data[$sentiment] = $this->sortDate($data);
                 }
                 $this->finalizeDate($AsyncItem);
+                $Diagram->data = $this->sortForCorrectCollor($Diagram->data, 'sentiment');
                 break;
             case 'sentiment.distribution':
                 // Распределение тональности
                 $Diagram->data = $Response->total['sentiment'];
+                $Diagram->data = $this->sortForCorrectCollor($Diagram->data, 'sentiment');
                 break;
             case 'sources.byTime':
                 // Источники по времени
@@ -197,11 +203,13 @@ class PresentationDataLoader {
                     }
                 }
                 $this->finalizeDate($AsyncItem);
+                $Diagram->data = $this->sortForCorrectCollor($Diagram->data, 'sex');
                 break;
             case 'demographics.mentionsDistributionBySex':
                 // Распределение упоминаний по полу
                 $Diagram->data = $Response->total['authorBySex'];
                 unset($Diagram->data['unknown']);
+                $Diagram->data = $this->sortForCorrectCollor($Diagram->data, 'sex');
                 break;
             default:
                 App()->getLogger()->error(new Exception('No case for section ' . $Diagram->section));
@@ -322,11 +330,12 @@ class PresentationDataLoader {
      * @throws Exception
      */
     private function finalizeDate(YouScanAsyncItem $AsyncItem) {
+        $requestParams = $AsyncItem->Request->getParams();
         /** @var DateTime[] $period */
         $period = new DatePeriod(
-            new DateTime($AsyncItem->Request->from),
+            new DateTime($requestParams['from']),
             new DateInterval('P1D'),
-            new DateTime($AsyncItem->Request->to)
+            new DateTime($requestParams['to'])
         );
         $default = [];
         foreach ($period as $Date) {
@@ -341,5 +350,34 @@ class PresentationDataLoader {
         } else {
             $AsyncItem->Diagram->data = array_merge($default, $dateData);
         }
+    }
+
+    /**
+     * библиотека сошла с ума и ставит свои цвета.. но похоже начинает всегда последовательно: синий красный зеленый
+     * @param array $data
+     * @param string $type
+     * @return array
+     */
+    private function sortForCorrectCollor(array $data, string $type): array {
+        $sorted = [];
+
+        switch ($type) {
+            case 'sentiment':
+                $sorted = [
+                    'neutral' => $data['neutral'],
+                    'negative' => $data['negative'],
+                    'positive' => $data['positive'],
+                ];
+                break;
+            case 'sex':
+                $sorted = [
+                    'male' => $data['male'],
+                    'female' => $data['female'],
+                    'community' => $data['community'],
+                ];
+                break;
+        }
+
+        return $sorted ?: $data;
     }
 }

@@ -15,7 +15,12 @@ class YouScanAsyncRequestList {
     /**
      * @var YouScanAsyncItem[] Карта объектов запросов и респонсов для кеша.
      */
-    private $uniqueMap = [];
+    private $uniqueRequestMap = [];
+
+    /**
+     * @var array Карта объектов запросов-ответов.
+     */
+    private $asyncItemMap = [];
 
     /**
      * Возвращает список
@@ -30,7 +35,7 @@ class YouScanAsyncRequestList {
      * @return array
      */
     public function getUniqueList(): array {
-        return $this->uniqueMap;
+        return $this->uniqueRequestMap;
     }
 
     /**
@@ -48,7 +53,16 @@ class YouScanAsyncRequestList {
      * @return YouScanAsyncItem
      */
     public function getByUniqueIndex(string $index): YouScanAsyncItem {
-        return $this->uniqueMap[$index];
+        return $this->uniqueRequestMap[$index];
+    }
+
+    /**
+     * Возвращает уникальные асинхронные запросы с уникальными респонсами.
+     * @param string $index
+     * @return YouScanAsyncItem[]
+     */
+    public function getAsyncItemsByRequestIndex(string $index): array {
+        return $this->asyncItemMap[$index];
     }
 
     /**
@@ -58,14 +72,17 @@ class YouScanAsyncRequestList {
      */
     public function add(YouScanAsyncItem $AsyncItem): self {
         $requestHash = $AsyncItem->Request->getHash();
+        $postFilterHash = $AsyncItem->Request->getPostFiltersHash();
 
-        if (isset($this->uniqueMap[$requestHash])) {
-            $AsyncItem->Sequence = $this->uniqueMap[$requestHash]->Sequence;
-            $AsyncItem->Request = $this->uniqueMap[$requestHash]->Request;
-            $AsyncItem->Response = $this->uniqueMap[$requestHash]->Response;
-        } else {
+        if (!isset($this->uniqueRequestMap[$requestHash])) {
             $AsyncItem->Sequence = new YouScanSequence();
-            $this->uniqueMap[$requestHash] = $AsyncItem;
+            $this->uniqueRequestMap[$requestHash] = $AsyncItem;
+        }
+
+        if (isset($this->asyncItemMap[$requestHash][$postFilterHash])) {
+            $AsyncItem->Response = $this->asyncItemMap[$requestHash][$postFilterHash]->Response;
+        } else {
+            $this->asyncItemMap[$requestHash][$postFilterHash] = $AsyncItem;
         }
 
         $this->list[] = $AsyncItem;

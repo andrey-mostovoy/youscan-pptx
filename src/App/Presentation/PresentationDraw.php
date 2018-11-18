@@ -3,6 +3,7 @@
 namespace App\Presentation;
 
 use Exception;
+use PhpOffice\PhpPresentation\DocumentLayout;
 use PhpOffice\PhpPresentation\IOFactory;
 use PhpOffice\PhpPresentation\PhpPresentation;
 use PhpOffice\PhpPresentation\Shape\Chart;
@@ -56,6 +57,7 @@ class PresentationDraw {
     public function __construct(Presentation $Presentation) {
         $this->Presentation = $Presentation;
         $this->Draw = new PhpPresentation();
+        $this->Draw->getLayout()->setDocumentLayout(DocumentLayout::LAYOUT_SCREEN_16X9);
 
         // Set properties
         $this->Draw->getDocumentProperties()
@@ -98,8 +100,8 @@ class PresentationDraw {
             // Заголовок слайда
             $TextShape = $this->DrawSlide->createRichTextShape();
             $TextShape
-                ->setWidth(800)->setHeight(100)
-                ->setOffsetX(80)->setOffsetY(80);
+                ->setWidth(900)->setHeight(70)
+                ->setOffsetX(30)->setOffsetY(10);
             $TextShape->getActiveParagraph()->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
             $TextRun = $TextShape->createTextRun($Slide->Setting->title);
             $TextRun->getFont()->setBold(true)
@@ -242,6 +244,7 @@ class PresentationDraw {
             $ChartShape->getPlotArea()->getAxisY()->setMaxBounds(100);
         } else {
             $ChartShape->getLegend()->setVisible(false);
+            $ChartShape->setHeight(415);
         }
     }
 
@@ -275,7 +278,7 @@ class PresentationDraw {
         $translate = $Diagram->getTranslate();
 
         if (is_array(current($Diagram->data))) {
-            // если тут - значит диаграмма имеем несколько наборов данных (несколько линий например)
+            // если тут - значит диаграмма имеет несколько наборов данных (несколько линий например)
             foreach ($Diagram->data as $group => $groupData) {
                 // Набор данных
                 $Series = new Series($translate[$group] ?? $group, $groupData);
@@ -287,7 +290,7 @@ class PresentationDraw {
                 } else {
                     $colorARGB = $drawConfig[$group];
                 }
-                $Series->getFill()->setStartColor(new Color($colorARGB));
+                $Series->getFill()->getStartColor()->setARGB($colorARGB);
                 $Chart->addSeries($Series);
             }
         } else {
@@ -310,7 +313,7 @@ class PresentationDraw {
             $Series->setShowSeriesName(false);
             $Series->setShowValue(false);
             $Series->getFill()->setFillType(Fill::FILL_SOLID);
-            $Series->getFill()->setStartColor(new Color($this->getARGB(33, 150, 243, 0.5)));
+            $Series->getFill()->getStartColor()->setARGB($this->getARGB(33, 150, 243, 0.5));
             $Chart->addSeries($Series);
         }
     }
@@ -345,7 +348,7 @@ class PresentationDraw {
         $Chart->setWidth(900 / $this->diagramPerSlide);
         $Chart->setHeight(450);
         $Chart->setOffsetX(30 + (900 / $this->diagramPerSlide) * ($this->currentDiagram - 1));
-        $Chart->setOffsetY(200);
+        $Chart->setOffsetY(80);
         $Chart->getShadow()->setVisible(false);
         $Chart->getShadow()->setDirection(45);
         $Chart->getShadow()->setDistance(10);

@@ -1,0 +1,7 @@
+<h6>Тэги</h6>
+{% for tag in tags %}
+    <div class="custom-control custom-checkbox custom-control-inline">
+        <input type="checkbox" class="custom-control-input" id="settingsFilter-{{ loop.index }}" name="settings[filter][tags][]" value="{{ tag }}">
+        <label class="custom-control-label" for="settingsFilter-{{ loop.index }}">{{ tag }}</label>
+    </div>
+{% endfor %}

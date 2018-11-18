@@ -100,7 +100,7 @@ class YouScanRequest {
     /**
      * @var string[] Теги
      */
-    public $tags;
+    public $tags = [];
 
     /**
      * @var string Сортировка: published, publishedAsc, seqAs.
@@ -212,5 +212,15 @@ class YouScanRequest {
      */
     public function getHash(): string {
         return md5(join($this->topicId, $this->getParams()));
+    }
+
+    /**
+     * Возвращает хеш всех постфильтров
+     * @return string
+     */
+    public function getPostFiltersHash(): string {
+        return md5(join($this->topicId, array_merge(
+            $this->resourceTypes, $this->postTypes, $this->authorGenders, $this->tags
+        )));
     }
 }

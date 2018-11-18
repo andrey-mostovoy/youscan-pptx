@@ -33,6 +33,11 @@ class Filter {
     public $authorSex = [];
 
     /**
+     * @var array Теги.
+     */
+    public $tags = [];
+
+    /**
      * Экспорт
      * @return array
      */
@@ -52,6 +57,9 @@ class Filter {
         }
         if ($this->authorSex) {
             $filters['authorSex'] = $this->authorSex;
+        }
+        if ($this->tags) {
+            $filters['tags'] = $this->tags;
         }
         return $filters;
     }
@@ -75,6 +83,9 @@ class Filter {
         }
         if (isset($data['authorSex'])) {
             $this->authorSex = $data['authorSex'];
+        }
+        if (isset($data['tags'])) {
+            $this->tags = $data['tags'];
         }
     }
 }

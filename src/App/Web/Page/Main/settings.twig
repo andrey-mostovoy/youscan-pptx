@@ -9,7 +9,7 @@
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-period-{{ id }}">Период</span>
         </div>
-        <input class="form-control period-pick" type="text" placeholder="Период" aria-describedby="inputGroup-period-{{ id }}" data-for="{{ inputNameSettings }}[period]"/>
+        <input class="form-control period-pick {% if id == 'main' %}js-date-main{% endif %}" type="text" placeholder="" aria-describedby="inputGroup-period-{{ id }}" data-for="{{ inputNameSettings }}[period]"/>
         <input type="hidden" name="{{ inputNameSettings }}[period][start]" value="" />
         <input type="hidden" name="{{ inputNameSettings }}[period][end]" value="" />
     </div>
@@ -30,6 +30,10 @@
                     {% endfor %}
                 </div>
             {% endfor %}
+            {% if id == 'main' %}
+                <div class="border-bottom mb-3 pb-2 js-mainTags">
+                </div>
+            {% endif %}
         </div>
     </div>
 </div>
@@ -47,6 +51,10 @@
                 {% endfor %}
             </select>
         </div>
+    </div>
+    <div class="form-group">
+        <h4>Шаблоны</h4>
+        <button type="button" class="btn btn-light js-presentationTemplate" data-presentation-template="1">Шаблон 1</button>
     </div>
 {% else %}
     <div class="slide-{{ id }}-settings border-bottom">
@@ -90,7 +98,7 @@
                     <div class="input-group-prepend">
                         <label class="input-group-text" for="inputGroupDiagramSection-{{ id }}-%diagramId%">График</label>
                     </div>
-                    <select class="custom-select" id="inputGroupDiagramSection-{{ id }}-%diagramId%" name="{{ inputNameDiagram }}[%diagramId%][section]" onchange="onDiagramSelect(this);">
+                    <select class="custom-select js-diagramSection" id="inputGroupDiagramSection-{{ id }}-%diagramId%" name="{{ inputNameDiagram }}[%diagramId%][section]" onchange="onDiagramSelect(this);">
                         <option value="" selected>Надо выбрать типа...</option>
                         {% for type, sectionVariants in config.diagram.section %}
                             {% for section, name in sectionVariants %}

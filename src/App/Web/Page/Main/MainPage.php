@@ -69,10 +69,34 @@ class MainPage extends WebPage {
      * {@inheritdoc}
      */
     public function runAjax(string $method): array {
+        switch ($method) {
+            case 'tagsDiagram':
+                return $this->getTagsForDiagram();
+                break;
+            case 'tagsMain':
+                return $this->getMainTags();
+                break;
+            default:
+                return [];
+        }
+    }
+
+    /**
+     * Получает теги для диаграммы
+     * @return array
+     * @throws \Twig_Error_Loader
+     * @throws \Twig_Error_Runtime
+     * @throws \Twig_Error_Syntax
+     */
+    private function getTagsForDiagram() {
         $form = [];
         parse_str($this->App->getRequest()->get('form'), $form);
         $Presentation = new Presentation();
         $Presentation->import($form);
+
+        if (!$Presentation->topicId) {
+            return [];
+        }
 
         $diagramIdString = $this->App->getRequest()->get('diagramId');
         list($slideId, $diagramId) = explode('-', $diagramIdString);
@@ -97,13 +121,52 @@ class MainPage extends WebPage {
         }
 
         $this->bind([
-            'slideId' => $slideId,
-            'diagramId' => $diagramId,
+                        'slideId' => $slideId,
+                        'diagramId' => $diagramId,
+                        'tags' => $tags,
+                    ]);
+
+        return [
+            'tags' => $this->render('tags'),
+        ];
+    }
+
+    /**
+     * Получает общие теги.
+     * @return array
+     * @throws \Twig_Error_Loader
+     * @throws \Twig_Error_Runtime
+     * @throws \Twig_Error_Syntax
+     */
+    private function getMainTags() {
+        $form = [];
+        parse_str($this->App->getRequest()->get('form'), $form);
+        $Presentation = new Presentation();
+        $Presentation->import($form);
+
+        if (!$Presentation->topicId) {
+            return [];
+        }
+
+        $DataLoader = new PresentationDataLoader($Presentation);
+        $ApiRequest = new YouScanRequest();
+
+        $ApiRequest->topicId = $Presentation->topicId;
+        $DataLoader->applySettings($ApiRequest, $Presentation->Setting);
+
+        try {
+            $tags = (new YouScan())->getTags($ApiRequest);
+        } catch (Exception $Ex) {
+            $this->App->getLogger()->error($Ex);
+            return [];
+        }
+
+        $this->bind([
             'tags' => $tags,
         ]);
 
         return [
-            'tags' => $this->render('tags'),
+            'tags' => $this->render('tagsMain'),
         ];
     }
 
